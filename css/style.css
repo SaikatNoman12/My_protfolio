@@ -1,14 +1,149 @@
-/*   font-family: 'Roboto', sans-serif;   */
-
-/*   font-family: 'Neuton', serif;  */
-
-
 body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+  
+.section{
+    margin-bottom: 80px;
+}
+
+.flexible-section{
+    display:flex ;
+
+}
+
+.color{
+    color: rgb(42, 199, 178) ;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.mr-top{
+    margin-top: 10%;
+}
+
+
+.heading{
+    display: flex;
+    width: 100%;
+}
+
+.line{
+    width: 6px;
+    border-radius: 130px;
+    height: 202px;
+    background-color: red;
+}
+
+.top-banner .half-width .heading h1{
+    font-size: 80px;
+    padding-left:20px ;
+    font-family: 'Neuton', serif;
+    font-weight: 600;
     margin: 0;
 }
 
-
-/* global css */
-.flexible-section{
-    display: ;
+.top-banner .half-width p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+    padding-top: 20px ;
+    padding-bottom: 20px;
 }
+
+.half-width img{
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.small{
+    font-size: 19px;
+    padding-top:30px ;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+}
+
+
+.mission-card{
+   display: flex;
+    padding: 0 10%;
+}
+
+.card{
+    background-color: #edf5f6 ;
+    padding: 40px 10px;
+    width: 30%;
+    border-radius: 30px;
+}
+
+
+.card img{
+    width: 40%;
+}
+
+.card2{
+    background-color: #ffeeee;
+    margin: 0 2%;
+}
+
+.card3{
+    background-color: #fff4d6;
+}
+
+
+.one_third{
+    width: 30%;
+    padding-left: 10%;
+}
+
+.one_third img{
+    width: 90%;
+}
+
+.two-thirds{
+    padding-right: 0%;
+    width: 46%;
+    padding-left: 2%;
+}
+
+.two-thirds h2{
+    font-size: 44px;
+    font-weight: 800;
+    color: rgb(41, 40, 40);
+} 
+
+
