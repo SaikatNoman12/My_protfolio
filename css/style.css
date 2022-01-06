@@ -5,7 +5,7 @@ body{
 
   
 .section{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .flexible-section{
@@ -18,14 +18,13 @@ body{
 }
 
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 10%;
 }
 
 .mr-top{
     margin-top: 10%;
 }
-
 
 .heading{
     display: flex;
@@ -72,7 +71,7 @@ body{
 
 .small{
     font-size: 19px;
-    padding-top:30px ;
+    padding-top:40px ;
     font-weight: 400;
 }
 
@@ -90,7 +89,8 @@ h3{
     font-weight: 600;
 }
 
-p{
+p{  
+    padding-bottom:30px; 
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -101,6 +101,12 @@ p{
 .mission-card{
    display: flex;
     padding: 0 10%;
+    background-image: url(./images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: 6%;
+    background-position-y: 20%;
+    z-index: 11;
 }
 
 .card{
@@ -124,6 +130,13 @@ p{
     background-color: #fff4d6;
 }
 
+.develop_section{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 4.5%;
+    background-size: 14%;
+}
 
 .one_third{
     width: 30%;
@@ -136,7 +149,7 @@ p{
 
 .two-thirds{
     padding-right: 0%;
-    width: 46%;
+    width: 48%;
     padding-left: 2%;
 }
 
@@ -146,4 +159,153 @@ p{
     color: rgb(41, 40, 40);
 } 
 
+.one_thirdss{
+    width: 46%;
+    padding-left: 10%;
+}
 
+.global_comunity{
+    background-image: url(./images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-position-x: 88%;
+    background-position-y: 80%;
+    background-size: 10%;
+}
+ 
+.two-thirdss{
+    padding-right: 0%;
+    width: 30%;
+    padding-left: 2%;
+}
+
+.two-thirdss img{
+    width: 90%;
+}
+
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color:#0b0d17;
+    color: white;
+}
+
+.footer-h1{
+    font-family: 'Neuton', serif;
+    font-size: 44px;
+}
+
+.secondnd-color{
+    color: rgb(250, 3, 3) ;
+
+}
+
+.footer-p{
+    margin: 0;
+    font-family: 
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paddingg{
+    padding-bottom: 30px;
+}
+
+.form-section{
+    padding-right: 0px;
+}
+
+.form{
+    padding-bottom: 20px;
+}
+
+.form label{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.form input{
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 20px;
+    font-weight: 400 !important;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: dimgrey !important;
+    outline: none;
+}
+
+
+
+.text-area textarea{
+    width: 100%;
+    font-weight: 500 !important;
+    padding: 6px 8px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: dimgrey;
+    outline: none;
+}
+
+.button{
+    text-align: center;
+}
+
+.submit-button{
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    margin: auto;
+}
+
+.skill-line{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(158, 157, 157);
+}
+
+.parcent-color{
+    border-radius: 10px;
+    background-color: red;
+    height: 100%;
+}
+
+.html{
+    width: 88%;
+}
+
+.skill-color{
+    color: red;
+}
+
+.parcentage{
+    padding-left: 66%;
+}
+
+
+.css{
+    width: 66%;
+}
+
+.parcentage-two{
+    padding-left: 48%;
+}
+
+.js{
+    width: 42%;
+}
+
+.parcentage-three{
+    padding-left: 8%;
+}
+
+.python{
+    width: 55%;
+}
+
+.parcentage-four{
+    padding-left: 30%;
+}
