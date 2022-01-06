@@ -3,60 +3,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-  
+/* global css start */
 .section{
     margin-bottom: 100px;
 }
 
 .flexible-section{
     display:flex ;
-
-}
-
-.color{
-    color: rgb(42, 199, 178) ;
 }
 
 .half-width{
     width: 40%;
     padding-left: 10%;
-}
-
-.mr-top{
-    margin-top: 10%;
-}
-
-.heading{
-    display: flex;
-    width: 100%;
-}
-
-.line{
-    width: 6px;
-    border-radius: 130px;
-    height: 202px;
-    background-color: red;
-}
-
-.top-banner .half-width .heading h1{
-    font-size: 80px;
-    padding-left:20px ;
-    font-family: 'Neuton', serif;
-    font-weight: 600;
-    margin: 0;
-}
-
-.top-banner .half-width p{
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: dimgrey;
-    padding-top: 20px ;
-    padding-bottom: 20px;
-}
-
-.half-width img{
-    width: 80%;
 }
 
 .link-button{
@@ -69,19 +27,10 @@ body{
     border-radius: 5px;
 }
 
-.small{
-    font-size: 19px;
-    padding-top:40px ;
-    font-weight: 400;
-}
-
 h2{
     font-size: 60px;
+   margin-bottom: 64px;
     font-weight: 600;
-}
-
-.text-center{
-    text-align: center;
 }
 
 h3{
@@ -91,31 +40,104 @@ h3{
 
 p{  
     padding-bottom:30px; 
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: dimgrey;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.parcent-color{
+    border-radius: 10px;
+    background-color: rgb(248, 45, 45);
+    height: 100%;
+}
+
+.skill-color{
+    color: red;
+}
+/* global css end */
+
+
+
+/* top banner div css start */
+.top-banner{
+    margin-bottom: 66px;
+}
+
+.color{
+    color: rgb(42, 199, 178) ;
+}
+
+.mr-top{
+    margin-top: 10%;
+}
+
+.heading{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.line{
+    width: 6px;
+    border-radius: 130px;
+    height: 156px;
+    top: 16%;
+    position: absolute;
+    background-color: #f86060;
+}
+
+.top-banner .half-width .heading h1{
+    font-size: 80px;
+    padding-left:20px ;
+    color: rgb(54, 54, 54);
+    font-family: 'Neuton', serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.top-banner .half-width p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+.small{
+    font-size: 19px;
+    margin-top: 34px;
+    font-weight: 400;
+}
+
+.half-width img{
+    margin-top: 18%;
+    width: 84%;
+}
+/* top banner div css end */
+
+
+/* mission card section start */
+.mission-container h2{
+    color:#13103a;
+}
 
 .mission-card{
-   display: flex;
+    display: flex;
     padding: 0 10%;
-    background-image: url(./images/shapes/shape-7.png);
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position-x: 6%;
-    background-position-y: 20%;
-    z-index: 11;
 }
 
 .card{
     background-color: #edf5f6 ;
-    padding: 40px 10px;
+    padding: 10px 30px;
     width: 30%;
     border-radius: 30px;
 }
-
 
 .card img{
     width: 40%;
@@ -129,15 +151,10 @@ p{
 .card3{
     background-color: #fff4d6;
 }
+/* mission card section end */
 
-.develop_section{
-    background-image: url(./images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position-y: 50%;
-    background-position-x: 4.5%;
-    background-size: 14%;
-}
 
+/* develop section start */
 .one_third{
     width: 30%;
     padding-left: 10%;
@@ -147,31 +164,42 @@ p{
     width: 90%;
 }
 
+.two-thirds h2{
+    font-size: 48px;
+    color:rgb(66, 66, 66);
+    margin-bottom: 34px;
+}
+
 .two-thirds{
     padding-right: 0%;
     width: 48%;
     padding-left: 2%;
 }
 
-.two-thirds h2{
-    font-size: 44px;
-    font-weight: 800;
-    color: rgb(41, 40, 40);
-} 
+.develop_section{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 4.3%;
+    background-size: 14%;
+}
+/* develop section end */
 
+
+/* global community section start */
 .one_thirdss{
     width: 46%;
     padding-left: 10%;
 }
 
 .global_comunity{
-    background-image: url(./images/shapes/shape-4.png);
+    background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position-x: 88%;
-    background-position-y: 80%;
-    background-size: 10%;
+    background-position-x: 90%;
+    background-position-y: 50%;
+    background-size: 15%;
 }
- 
+
 .two-thirdss{
     padding-right: 0%;
     width: 30%;
@@ -181,37 +209,16 @@ p{
 .two-thirdss img{
     width: 90%;
 }
+/* global community section start */
 
-footer{
-    padding: 30px 0;
-    text-align: center;
-    background-color:#0b0d17;
-    color: white;
-}
 
-.footer-h1{
-    font-family: 'Neuton', serif;
-    font-size: 44px;
-}
-
-.secondnd-color{
-    color: rgb(250, 3, 3) ;
-
-}
-
-.footer-p{
-    margin: 0;
-    font-family: 
-    padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-
+/* contact form and our skills sections css start */
 .paddingg{
     padding-bottom: 30px;
 }
 
-.form-section{
-    padding-right: 0px;
+.form-section h2{
+    text-align: center;
 }
 
 .form{
@@ -220,32 +227,31 @@ footer{
 
 .form label{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 500;
 }
-
 
 .form input{
     width: 100%;
     padding: 6px 8px;
     font-size: 20px;
     font-weight: 400 !important;
-    border: 1px solid black;
-    border-radius: 3px;
+    border: 3px solid rgba(27, 27, 27, 0.6);
+    border-radius: 8px;
     color: dimgrey !important;
     outline: none;
 }
-
-
 
 .text-area textarea{
     width: 100%;
     font-weight: 500 !important;
     padding: 6px 8px;
     font-size: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 3px solid rgba(27, 27, 27, 0.6);
+    border-radius: 8px;
     color: dimgrey;
     outline: none;
+    resize: none;
+    display: block;
 }
 
 .button{
@@ -258,33 +264,28 @@ footer{
     border: 0;
     font-weight: 500;
     margin: auto;
+    cursor: pointer;
+}
+
+
+.skill h3{
+    color:rgb(66, 66, 66);
 }
 
 .skill-line{
     width: 100%;
     height: 10px;
     border-radius: 10px;
-    background-color: rgb(158, 157, 157);
-}
-
-.parcent-color{
-    border-radius: 10px;
-    background-color: red;
-    height: 100%;
+    background-color: rgb(170, 168, 168);
 }
 
 .html{
     width: 88%;
 }
 
-.skill-color{
-    color: red;
-}
-
 .parcentage{
     padding-left: 66%;
 }
-
 
 .css{
     width: 66%;
@@ -309,3 +310,34 @@ footer{
 .parcentage-four{
     padding-left: 30%;
 }
+
+.php{
+    width: 45%;
+}
+
+.parcentage-five{
+    padding-left: 27%;
+}
+
+/* contact form and our skills sections css end */
+
+
+
+
+/* footer section css start */
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color:#0b0d17;
+    color: white;
+}
+
+.footer-h1{
+    font-family: 'Neuton', serif;
+    font-size: 44px;
+}
+
+.secondnd-color{
+    color: rgb(250, 3, 3) ;
+}
+/* footer section css end */
